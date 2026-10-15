@@ -32,3 +32,8 @@ Conversión a Hexadecimal (16 dígitos): Procesa el registro de 64 bits en bloqu
 **Video del proyecto**
 https://drive.google.com/file/d/1kO9bB23fbIvs4a_pwubJUEa89cH_9W5x/view?usp=sharing
 
+**capturas**
+<img width="1902" height="932" alt="image" src="https://github.com/user-attachments/assets/894c069b-80b0-4569-92e6-31b9f5daaeda" />
+<img width="1701" height="894" alt="image" src="https://github.com/user-attachments/assets/1c232e9e-7fd2-4945-b8b1-0478da9fba73" />
+
+
