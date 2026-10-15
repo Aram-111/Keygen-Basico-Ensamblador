@@ -18,6 +18,7 @@ Para compilar y ejecutar este proyecto se requieren **UASM64** y **GoLink**:
 uasm64 -win64 keygen_gutierrez_aram.asm
 GoLink.exe keygen_gutierrez_aram.obj kernel32.dll /fo keygen_gutierrez_aram.exe /console /entry main
 keygen_gutierrez_aram.exe
+```
 
 **Explicación del Algoritmo**
 Captura y Validación: Lee la entrada con ReadConsoleA. Si los bytes leídos son menores o iguales a 2 (cmp rax, 2), detecta un nombre vacío (solo \r\n) y salta al mensaje de error.
