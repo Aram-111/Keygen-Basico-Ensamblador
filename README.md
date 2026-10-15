@@ -18,7 +18,8 @@ Para compilar y ejecutar este proyecto se requieren **UASM64** y **GoLink**:
 uasm64 -win64 keygen_gutierrez_aram.asm
 GoLink.exe keygen_gutierrez_aram.obj kernel32.dll /fo keygen_gutierrez_aram.exe /console /entry main
 keygen_gutierrez_aram.exe
-🧠 Explicación del Algoritmo
+
+**Explicación del Algoritmo**
 Captura y Validación: Lee la entrada con ReadConsoleA. Si los bytes leídos son menores o iguales a 2 (cmp rax, 2), detecta un nombre vacío (solo \r\n) y salta al mensaje de error.
 
 Suma ASCII: Recorre la cadena byte por byte descontando el salto de línea (sub rcx, 2). Acumula los valores numéricos ASCII de cada letra en RAX mediante add rax, rdx.
@@ -29,9 +30,4 @@ Conversión a Hexadecimal (16 dígitos): Procesa el registro de 64 bits en bloqu
 
 **Video del proyecto**
 https://drive.google.com/file/d/1kO9bB23fbIvs4a_pwubJUEa89cH_9W5x/view?usp=sharing
-
-**capturas**
-<img width="1766" height="916" alt="image" src="https://github.com/user-attachments/assets/011e50b3-f1c6-4721-9f9d-ad98d2a36e60" />
-<img width="1721" height="918" alt="image" src="https://github.com/user-attachments/assets/f709ca6a-61ea-4f99-9251-875647166939" />
-
 
